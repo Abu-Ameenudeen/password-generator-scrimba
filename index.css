@@ -1,9 +1,16 @@
 body {
     margin: 0;
     font-family: karla, sans-serif;
-    padding: 150px;
+    padding: 120px;
     background-color: #111827;
     color: white;
+}
+
+#punchline {
+    color: #9CA3AF;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 
@@ -13,10 +20,32 @@ body {
 
 #generate-btn {
     background-color: #4ADF86;
+    text-shadow: 0px 0px 4px black;
+    color: whitesmoke;
     border: none;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.password-container {
+    /* border: dotted 1px #6B7280; */
+    border-top: #1F2937 solid 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    width: 450px;
+    padding: 35px 10px;
+}
+
+.password {
+    background-color: #1F2937;
+    padding: 15px;
+    border-radius: 5px;
+    width: 185px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
