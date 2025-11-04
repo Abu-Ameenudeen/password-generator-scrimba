@@ -42,10 +42,11 @@ body {
 
 .password {
     background-color: #1F2937;
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 5px;
     width: 185px;
+    height: 19px;
     text-align: center;
     cursor: pointer;
-    user-select: none;
+    color: #4ADF86;
 }
